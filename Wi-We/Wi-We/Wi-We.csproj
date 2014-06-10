@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83AA523F-CA9F-4F51-851D-A0105361848F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wi_We</RootNamespace>
+    <AssemblyName>Wi-We</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\social-buttons.css" />
+    <Content Include="CustomerLogos\PC.gif" />
+    <Content Include="CustomerLogos\chanel_black.png" />
+    <Content Include="CustomerLogos\d_and_g.png" />
+    <Content Include="CustomerLogos\lv.gif" />
+    <Content Include="CustomerLogos\prada-original.png.gif" />
+    <Content Include="CustomerLogos\reebok.gif" />
+    <Content Include="CustomerLogos\versace.gif" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="images\251692_278208698950578_1778748700_n.jpg" />
+    <Content Include="images\393359_278206648950783_1818228659_n.jpg" />
+    <Content Include="images\Fashion 1.jpg" />
+    <Content Include="images\Fashion 2.jpg" />
+    <Content Include="images\Fashion 3.jpg" />
+    <Content Include="images\fashion 4.jpg" />
+    <Content Include="images\fashion 5.jpg" />
+    <Content Include="images\Fashion 6.jpg" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\Thumbs.db" />
+    <Content Include="images_product\Thumbs.db" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\Wi-We.csprojResolveAssemblyReference.cache" />
+    <Content Include="packages\bootstrap.3.1.1\bootstrap.3.1.1.nupkg" />
+    <Content Include="packages\bootstrap.3.1.1\content\Content\bootstrap-theme.css.map" />
+    <Content Include="packages\bootstrap.3.1.1\content\Content\bootstrap.css.map" />
+    <Content Include="packages\bootstrap.3.1.1\content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages\bootstrap.3.1.1\content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="packages\bootstrap.3.1.1\content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="packages\jQuery.1.9.0\Content\Scripts\jquery-1.9.0.min.map" />
+    <Content Include="packages\jQuery.1.9.0\jQuery.1.9.0.nupkg" />
+    <Content Include="packages\jQuery.1.9.0\Tools\common.ps1" />
+    <Content Include="packages\jQuery.1.9.0\Tools\install.ps1" />
+    <Content Include="packages\jQuery.1.9.0\Tools\uninstall.ps1" />
+    <Content Include="packages\repositories.config" />
+    <Content Include="packages\Twitter.Bootstrap.Bootswatch.Cosmo.3.1.1.1\Twitter.Bootstrap.Bootswatch.Cosmo.3.1.1.1.nupkg" />
+    <Content Include="CustomerLogos\Thumbs.db" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\bootstrap.js" />
+    <Content Include="bootstrap\bootstrap.min.js" />
+    <Content Include="bootstrap\holder.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.cosmo.css" />
+    <Content Include="Content\bootstrap.cosmo.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\slick.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\buildings.jpg" />
+    <Content Include="images\buildings2.jpg" />
+    <Content Include="images\clients.png" />
+    <Content Include="images\comercial.jpg" />
+    <Content Include="images\comercial2.jpg" />
+    <Content Include="images\contact.png" />
+    <Content Include="images\dollar.png" />
+    <Content Include="images\Email.png" />
+    <Content Include="images\employee.png" />
+    <Content Include="images\home.png" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\mobile.png" />
+    <Content Include="images\municipality.png" />
+    <Content Include="images\phone.png" />
+    <Content Include="images\retail.png" />
+    <Content Include="images\services.jpg" />
+    <Content Include="images\services.png" />
+    <Content Include="images\services2.jpg" />
+    <Content Include="images_product\cas1.png" />
+    <Content Include="images_product\mars1.png" />
+    <Content Include="images_product\muniflow1.png" />
+    <Content Include="images_product\perfecto1.png" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\index.js" />
+    <None Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.0.js" />
+    <Content Include="Scripts\jquery-1.9.0.min.js" />
+    <Content Include="Scripts\slick.min.js" />
+    <Content Include="obj\Debug\Wi-We.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Wi-We.dll" />
+    <Content Include="obj\Debug\Wi-We.pdb" />
+    <Content Include="packages\bootstrap.3.1.1\content\Content\bootstrap-theme.css" />
+    <Content Include="packages\bootstrap.3.1.1\content\Content\bootstrap-theme.min.css" />
+    <Content Include="packages\bootstrap.3.1.1\content\Content\bootstrap.css" />
+    <Content Include="packages\bootstrap.3.1.1\content\Content\bootstrap.min.css" />
+    <Content Include="packages\bootstrap.3.1.1\content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="packages\bootstrap.3.1.1\content\Scripts\bootstrap.js" />
+    <Content Include="packages\bootstrap.3.1.1\content\Scripts\bootstrap.min.js" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Scripts\jquery-1.9.0.min.map" />
+    <None Include="packages\jQuery.1.9.0\Content\Scripts\jquery-1.9.0-vsdoc.js" />
+    <Content Include="packages\jQuery.1.9.0\Content\Scripts\jquery-1.9.0.js" />
+    <Content Include="packages\jQuery.1.9.0\Content\Scripts\jquery-1.9.0.min.js" />
+    <None Include="packages\jQuery.1.9.0\Tools\jquery-1.9.0.intellisense.js" />
+    <Content Include="packages\Twitter.Bootstrap.Bootswatch.Cosmo.3.1.1.1\content\Content\bootstrap.cosmo.css" />
+    <Content Include="packages\Twitter.Bootstrap.Bootswatch.Cosmo.3.1.1.1\content\Content\bootstrap.cosmo.min.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62025</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62025/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

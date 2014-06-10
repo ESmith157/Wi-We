@@ -1,0 +1,6 @@
+c:\Dev\Wi-We\Wi-We\Wi-We\bin\Wi-We.dll.config
+c:\Dev\Wi-We\Wi-We\Wi-We\bin\Wi-We.dll
+c:\Dev\Wi-We\Wi-We\Wi-We\bin\Wi-We.pdb
+c:\Dev\Wi-We\Wi-We\Wi-We\obj\Debug\Wi-We.dll
+c:\Dev\Wi-We\Wi-We\Wi-We\obj\Debug\Wi-We.pdb
+c:\Dev\Wi-We\Wi-We\Wi-We\obj\Debug\Wi-We.csprojResolveAssemblyReference.cache
